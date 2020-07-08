@@ -20,7 +20,7 @@
     "@sentry/node": "^5.19.0",
     "errio": "^1.2.2",
     "le_node": "^1.8.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.16",
     "path": "^0.12.7",
     "typed-errors": "^1.1.0",
     "winston": "^3.3.3"
