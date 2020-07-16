@@ -1,6 +1,6 @@
 {
   "name": "@balena/jellyfish-logger",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Logger library for Jellyfish",
   "main": "lib/index.js",
   "directories": {
