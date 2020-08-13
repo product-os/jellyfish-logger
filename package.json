@@ -25,12 +25,12 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-assert": "^0.0.21",
-    "@balena/jellyfish-environment": "^2.2.0",
+    "@balena/jellyfish-assert": "^0.0.22",
+    "@balena/jellyfish-environment": "^2.2.1",
     "@sentry/node": "^5.21.1",
     "errio": "^1.2.2",
     "le_node": "^1.8.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "typed-errors": "^1.1.0",
     "winston": "^3.3.3"
   },
