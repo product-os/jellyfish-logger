@@ -30,7 +30,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@balena/jellyfish-assert": "^1.0.52",
-    "@balena/jellyfish-environment": "^2.3.38",
+    "@balena/jellyfish-environment": "^2.3.39",
     "@sentry/node": "^6.0.3",
     "errio": "^1.2.2",
     "le_node": "^1.8.0",
