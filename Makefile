@@ -39,7 +39,7 @@ lint:
 	npx eslint --ext .js $(ESLINT_OPTION_FIX) lib
 	npx jellycheck
 	npx deplint
-	npx depcheck --ignore-bin-package
+	npx depcheck --ignore-bin-package --ignores='winston-transport'
 
 test:
 	node $(NODE_DEBUG_ARGS) ./node_modules/.bin/ava -v $(AVA_ARGS) $(FILES)

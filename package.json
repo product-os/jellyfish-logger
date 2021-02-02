@@ -33,10 +33,11 @@
     "@balena/jellyfish-environment": "^2.4.1",
     "@sentry/node": "^6.0.4",
     "errio": "^1.2.2",
-    "le_node": "^1.8.0",
     "lodash": "^4.17.20",
+    "r7insight_node": "^2.1.0",
     "typed-errors": "^1.1.0",
-    "winston": "^3.3.3"
+    "winston": "^3.3.3",
+    "winston-transport": "^4.4.0"
   },
   "devDependencies": {
     "@balena/jellycheck": "^0.1.1",
