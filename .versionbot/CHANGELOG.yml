@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: 8a46c07d341bafacd218b3d05f2c5e64c3a1314a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.25
+  date: 2021-02-20T09:05:40.561Z
+- commits:
     - subject: Add versionbot CHANGELOG.yml
       hash: 806935e5d835090335651e5279d98b57fcd018cd
       body: ''
