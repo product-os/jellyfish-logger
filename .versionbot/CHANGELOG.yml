@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^2.4.19'
+      hash: d4c210839129297fb7f389bd8e2a87f9ca6b1efc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.33
+  date: 2021-02-23T13:10:52.559Z
+- commits:
     - subject: 'patch: Update dependency eslint-plugin-jsdoc to ^32.2.0'
       hash: c7a0f95679396b8622138af030a93548baecc55d
       body: ''
