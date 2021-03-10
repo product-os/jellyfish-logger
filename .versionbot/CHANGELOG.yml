@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency eslint-plugin-lodash to ^7.2.0'
+      hash: 012f9972a4f19b70bffac2b198588c0b6cbb2f62
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.43
+  date: 2021-03-10T08:26:11.528Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-assert to ^1.0.62'
       hash: 15bdd663fc5490758c114213b496d975bcf7830d
       body: ''
