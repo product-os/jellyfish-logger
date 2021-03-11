@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^2.4.24'
+      hash: 7cfab67f8f5e2d0d946bc610f7f8f01865b1c42c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.44
+  date: 2021-03-11T00:24:00.711Z
+- commits:
     - subject: 'patch: Update dependency eslint-plugin-lodash to ^7.2.0'
       hash: 012f9972a4f19b70bffac2b198588c0b6cbb2f62
       body: ''
