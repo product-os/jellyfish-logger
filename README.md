@@ -26,5 +26,5 @@ logger.warn(context, 'Inserting card', {
 
 # Documentation
 
-A module for logging at various levels.
+Visit the website for complete documentation: https://product-os.github.io/jellyfish-logger
 
