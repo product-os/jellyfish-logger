@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @sentry/node to ^6.2.3'
+      hash: f4c327487d2dc96781a40e25b86eb462313b4b61
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.53
+  date: 2021-03-19T19:46:21.706Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-assert to ^1.0.64'
       hash: 518818da6da83c0fb4cd338966765929a2036aaa
       body: ''
