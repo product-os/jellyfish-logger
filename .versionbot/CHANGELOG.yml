@@ -1,4 +1,27 @@
 - commits:
+    - subject: Update docs
+      hash: 050eab6eb275b244b9d50bcf1a08f1421937b12e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: Converted to TypeScript
+      hash: 734e54b3eec9bc8a3e68d3df037151545c8df2a9
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.0.0
+  date: 2021-03-22T17:12:07.618Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-assert to ^1.0.67'
       hash: 19d44c9f67912c190d8b3bafb375b21c8d7c2f7e
       body: ''
