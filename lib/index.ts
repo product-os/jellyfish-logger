@@ -10,7 +10,7 @@ import path from 'path';
 import _ from 'lodash';
 import winston from 'winston';
 import { errorReporter } from './error-reporter';
-import environment from '@balena/jellyfish-environment';
+import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { INTERNAL } from '@balena/jellyfish-assert';
 
 type LogContext = object | null;
@@ -137,14 +137,17 @@ class Logger {
 
 // TODO: Replace references to "logentries" to "insight".
 const newTransport = (): winston.transport => {
-	if (environment.isProduction() && environment.logentries.token) {
+	if (
+		defaultEnvironment.isProduction() &&
+		defaultEnvironment.logentries.token
+	) {
 		// winston.transports.Insight is populated by requiring 'r7insight_node'. But
 		// TypeScript does not know about it! There is also no TypeScript definition
 		// for this transport class in the r7insight_node package.
 		const InsightTransport = _.get(winston.transports, ['Insight']);
 		return new InsightTransport({
-			token: environment.logentries.token,
-			region: environment.logentries.region,
+			token: defaultEnvironment.logentries.token,
+			region: defaultEnvironment.logentries.region,
 		});
 	}
 
@@ -176,7 +179,8 @@ const newTransport = (): winston.transport => {
 };
 
 const theTransport = newTransport();
-const defaultLogLevel = (environment.logger.loglevel as LEVEL) || 'debug';
+const defaultLogLevel =
+	(defaultEnvironment.logger.loglevel as LEVEL) || 'debug';
 
 export const getLogger = _.memoize(
 	(filename: string, logLevel: LEVEL = defaultLogLevel) => {
