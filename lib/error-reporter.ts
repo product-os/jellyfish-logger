@@ -5,7 +5,7 @@
  */
 
 import Sentry from '@sentry/node';
-import environment from '@balena/jellyfish-environment';
+import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { AssertError } from '@balena/jellyfish-assert/build/types';
 // tslint:disable-next-line: no-var-requires
 const { version } = require('../package.json');
@@ -28,9 +28,9 @@ class Reporter {
 				return;
 			}
 
-			if (environment.sentry.server.dsn) {
+			if (defaultEnvironment.sentry.server.dsn) {
 				Sentry.init({
-					dsn: environment.sentry.server.dsn,
+					dsn: defaultEnvironment.sentry.server.dsn,
 					environment: 'server',
 					release: version,
 				});
