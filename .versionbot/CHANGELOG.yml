@@ -1,4 +1,17 @@
 - commits:
+    - subject: Use jellyfish-environment v4
+      hash: f7a5dd954dd00fdbe5209d98cc264904b986397c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.0.2
+  date: 2021-03-23T01:53:40.530Z
+- commits:
     - subject: 'patch: Update dependency typedoc to ^0.20.33'
       hash: ccfe07b4348320287809500349f25bbbe8c09198
       body: ''
