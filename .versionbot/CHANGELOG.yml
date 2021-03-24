@@ -1,4 +1,19 @@
 - commits:
+    - subject: Set npmrc contents using action
+      hash: 23dce1a5e11f29533149610d503077acb9ab391e
+      body: >
+        This change avoids us having to export `NPM_TOKEN` locally to get local
+        dev to work.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.1.6
+  date: 2021-03-24T09:32:28.620Z
+- commits:
     - subject: Fix action trigger
       hash: 7cd77465ec401faed1c8f08cc92f3eb9eeee51b8
       body: |
