@@ -4,9 +4,8 @@
 name: Publish Documentation
 
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [created]
 
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
