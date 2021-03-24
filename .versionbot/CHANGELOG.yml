@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add registry location to .npmrc
+      hash: 0be66da34d0541e26722dec4177feb0255e9fb9f
+      body: |
+        NPM_TOKEN must be defined.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.1.1
+  date: 2021-03-24T03:12:51.566Z
+- commits:
     - subject: Publish docs using a GitHub action
       hash: 3851e3317c33ac394b995194f4d41b12e668fe0b
       body: ''
