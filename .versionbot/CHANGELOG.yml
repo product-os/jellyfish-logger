@@ -1,4 +1,17 @@
 - commits:
+    - subject: Only run action when a release is created
+      hash: bafd80655b1a2dddf7fe7fb12a3df2060c19b259
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.1.4
+  date: 2021-03-24T05:58:40.657Z
+- commits:
     - subject: Use peaceiris/actions-gh-pages@v3
       hash: cfc36b693f6bff2e7796fe29577d4dd880a3dd4e
       body: >
