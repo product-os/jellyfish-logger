@@ -1,4 +1,28 @@
 - commits:
+    - subject: Fix action trigger
+      hash: 7cd77465ec401faed1c8f08cc92f3eb9eeee51b8
+      body: |
+        Should only run when creating a tag
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: Add status badge for Publish Documentation action
+      hash: 5631195f57b82ebabec5657d8a96778ce4df2851
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.1.5
+  date: 2021-03-24T06:20:40.633Z
+- commits:
     - subject: Only run action when a release is created
       hash: bafd80655b1a2dddf7fe7fb12a3df2060c19b259
       body: ''
