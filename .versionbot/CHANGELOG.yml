@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: 8019bb7191dfd57886bb9af8a8c818e8f0d56257
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.10
+  date: 2021-03-25T10:51:07.168Z
+- commits:
     - subject: Switch from husky to simple-git-hooks
       hash: 6fa0ab8d497c073de049f239a46e075b3f587675
       body: ''
