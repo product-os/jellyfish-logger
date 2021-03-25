@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: 6ab446b5b15d1c671642beceb360e85c4312509c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.7
+  date: 2021-03-25T02:42:33.245Z
+- commits:
     - subject: Set npmrc contents using action
       hash: 23dce1a5e11f29533149610d503077acb9ab391e
       body: >
