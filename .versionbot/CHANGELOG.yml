@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency simple-git-hooks to ^2.3.0'
+      hash: 43b9a1c000843e1f91884f4502edc2b9cf324626
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.18
+  date: 2021-04-02T17:22:21.011Z
+- commits:
     - subject: 'patch: Update dependency @sentry/node to ^6.2.5'
       hash: 9958492b09c708a3a19549cab8eb0fc38614adab
       body: ''
