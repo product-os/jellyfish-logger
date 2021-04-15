@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: 142d2fd1f1414c072d4b796a65a37698d5f82770
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.27
+  date: 2021-04-15T21:41:21.994Z
+- commits:
     - subject: 'patch: Update dependency r7insight_node to ^2.1.1'
       hash: 8e41864c1034cf6b8bceb3a4cc41ce8d8cc8af77
       body: ''
