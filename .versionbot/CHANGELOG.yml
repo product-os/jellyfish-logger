@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @sentry/node to ^6.3.4'
+      hash: 9dab11b69cfe68b69079a0f1c8638163a24d7b07
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.39
+  date: 2021-04-29T09:53:40.491Z
+- commits:
     - subject: 'patch: Update dependency @sentry/node to ^6.3.3'
       hash: d3662162e89d642f9e393378116d099bf3e1a084
       body: ''
