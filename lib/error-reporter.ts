@@ -4,7 +4,7 @@
  * Proprietary and confidential.
  */
 
-import Sentry from '@sentry/node';
+import * as Sentry from '@sentry/node';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { AssertError } from '@balena/jellyfish-assert/build/types';
 // tslint:disable-next-line: no-var-requires
@@ -13,9 +13,17 @@ const { version } = require('../package.json');
 class Reporter {
 	initialized: boolean = false;
 	install: boolean = true;
+	transport?: any;
+	dsn?: string;
 
-	constructor() {
+	constructor(options: { transport?: any; dsn?: string }) {
 		this.reportException = this.reportException.bind(this);
+		if (options.transport) {
+			this.transport = options.transport;
+		}
+		if (options.dsn) {
+			this.dsn = options.dsn;
+		}
 	}
 
 	reportException(context: object | null, error: AssertError): void {
@@ -28,11 +36,14 @@ class Reporter {
 				return;
 			}
 
-			if (defaultEnvironment.sentry.server.dsn) {
+			const dsn = this.dsn || defaultEnvironment.sentry.server.dsn;
+
+			if (dsn) {
 				Sentry.init({
-					dsn: defaultEnvironment.sentry.server.dsn,
+					dsn,
 					environment: 'server',
 					release: version,
+					transport: this.transport,
 				});
 
 				this.initialized = true;
@@ -46,6 +57,16 @@ class Reporter {
 			Sentry.captureException(error);
 		}
 	}
+
+	// Flushes the reporter, sending any outstanding events
+	// @see https://docs.sentry.io/platforms/javascript/configuration/draining/
+	flush() {
+		return Sentry.flush();
+	}
 }
 
-export const errorReporter = new Reporter();
+export const getErrorReporter = (
+	options: { transport?: any; dsn?: string } = {},
+) => {
+	return new Reporter(options);
+};
