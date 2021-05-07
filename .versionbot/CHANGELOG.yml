@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix incorrect sentry module import
+      hash: 37e24198f74b9278d137a9dda16fbce13afbabea
+      body: |
+        This change also adds simple unit testing for the error reporter module.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 2.1.46
+  date: 2021-05-07T09:25:40.731Z
+- commits:
     - subject: 'patch: Update non-major'
       hash: b8e71e4ccbac9d40798b3ff4482a9e6ed4e4a677
       body: ''
