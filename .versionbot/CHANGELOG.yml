@@ -1,4 +1,17 @@
 - commits:
+    - subject: Exclude test directory from build output
+      hash: dbc48e2b21d6c1d21e3a5ccb03f3f721d7cc387e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 2.1.47
+  date: 2021-05-07T11:55:01.041Z
+- commits:
     - subject: Fix incorrect sentry module import
       hash: 37e24198f74b9278d137a9dda16fbce13afbabea
       body: |
