@@ -4,18 +4,19 @@
  * Proprietary and confidential.
  */
 
-import typedErrors from 'typed-errors';
-import errio from 'errio';
-import path from 'path';
-import _ from 'lodash';
-import winston from 'winston';
-import { errorReporter } from './error-reporter';
+import * as typedErrors from 'typed-errors';
+import * as errio from 'errio';
+import * as path from 'path';
+import * as _ from 'lodash';
+import * as winston from 'winston';
+import { getErrorReporter } from './error-reporter';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { INTERNAL } from '@balena/jellyfish-assert';
 
 type LogContext = object | null;
 
 const BASE_PATH = path.join(__dirname, '..', '..', '..');
+const errorReporter = getErrorReporter();
 
 // Adds winston.transports.Insight
 // tslint:disable-next-line: no-var-requires

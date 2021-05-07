@@ -4,8 +4,8 @@
  * Proprietary and confidential.
  */
 
-import intercept from 'intercept-stdout';
-import stripAnsi from 'strip-ansi';
+import intercept = require('intercept-stdout');
+import stripAnsi = require('strip-ansi');
 import { getLogger } from '../lib/index';
 
 const TEST_CONTEXT = {
