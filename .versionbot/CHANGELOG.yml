@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.1.12'
+      hash: 634e0101c7c85872ad726190b5467364ec34c5c4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.52
+  date: 2021-05-08T07:18:52.302Z
+- commits:
     - subject: 'build(deps): bump hosted-git-info from 2.8.8 to 2.8.9'
       hash: 0ef6f814e14dc920d44817ee43521384e4777e1e
       body: >
