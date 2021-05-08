@@ -1,4 +1,24 @@
 - commits:
+    - subject: 'build(deps): bump underscore from 1.10.2 to 1.13.1'
+      hash: 0235a2b1b9f3c563173dbe176d84d12c7be3274d
+      body: >
+        Bumps [underscore](https://github.com/jashkenas/underscore) from 1.10.2
+        to 1.13.1.
+
+        - [Release notes](https://github.com/jashkenas/underscore/releases)
+
+        -
+        [Commits](https://github.com/jashkenas/underscore/compare/1.10.2...1.13.1)
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: 'dependabot[bot] <support@github.com>'
+        signed-off-by: 'dependabot[bot] <support@github.com>'
+      author: 'dependabot[bot]'
+      nested: []
+  version: 2.1.53
+  date: 2021-05-08T07:40:20.938Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.1.12'
       hash: 634e0101c7c85872ad726190b5467364ec34c5c4
       body: ''
