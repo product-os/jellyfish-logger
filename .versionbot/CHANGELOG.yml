@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency lint-staged to v11'
+      hash: bff7faa3e14ea9785f8f4014bc9464c834ab1b7e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.48
+  date: 2021-05-07T17:08:51.035Z
+- commits:
     - subject: Exclude test directory from build output
       hash: dbc48e2b21d6c1d21e3a5ccb03f3f721d7cc387e
       body: ''
