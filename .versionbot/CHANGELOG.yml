@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @sentry/node to ^6.3.6'
+      hash: 554ccadee6cf9dbb61f2490f67675369ebb18bf2
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.54
+  date: 2021-05-10T09:50:02.070Z
+- commits:
     - subject: 'build(deps): bump underscore from 1.10.2 to 1.13.1'
       hash: 0235a2b1b9f3c563173dbe176d84d12c7be3274d
       body: >
