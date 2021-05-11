@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency depcheck to ^1.4.1'
+      hash: d13ed9b6cd72e854ad1f4e2526cccd49c853e20a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.55
+  date: 2021-05-11T07:41:30.334Z
+- commits:
     - subject: 'patch: Update dependency @sentry/node to ^6.3.6'
       hash: 554ccadee6cf9dbb61f2490f67675369ebb18bf2
       body: ''
