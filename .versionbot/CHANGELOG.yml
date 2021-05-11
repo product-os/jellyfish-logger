@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: 34e8287ec55955172f0e8713fb016c412a737654
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.56
+  date: 2021-05-11T08:31:30.786Z
+- commits:
     - subject: 'patch: Update dependency depcheck to ^1.4.1'
       hash: d13ed9b6cd72e854ad1f4e2526cccd49c853e20a
       body: ''
