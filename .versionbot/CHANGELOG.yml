@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency r7insight_node to ^3.0.1'
+      hash: 29c6e2708fdf785a28f0cdfe76f3ea3dee7862c1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.59
+  date: 2021-05-13T12:13:50.738Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-assert to ^1.1.17'
       hash: f5f48bd1b270baa98d731c6dd0aad841c9610ce1
       body: ''
