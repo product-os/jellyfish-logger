@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @sentry/node to ^6.4.0'
+      hash: 3ba04fec5de54ae608295bbf8651fe4b7c5811e8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.60
+  date: 2021-05-17T09:20:24.239Z
+- commits:
     - subject: 'patch: Update dependency r7insight_node to ^3.0.1'
       hash: 29c6e2708fdf785a28f0cdfe76f3ea3dee7862c1
       body: ''
