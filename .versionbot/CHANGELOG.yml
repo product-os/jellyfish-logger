@@ -1,4 +1,17 @@
 - commits:
+    - subject: Revert workflow experiment
+      hash: e54ba266a170999b177a5d8a69ecbfc9e068d5be
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.1.64
+  date: 2021-05-21T06:07:53.424Z
+- commits:
     - subject: Allow override of publish_dir property in workflow
       hash: 45c98f98eb8414cb3e506f374132c3fb43f49ac3
       body: >
