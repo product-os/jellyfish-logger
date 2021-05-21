@@ -1,5 +1,20 @@
 - commits:
     - subject: Allow override of publish_dir property in workflow
+      hash: d4c03d1b8835bf6d96e0a19eaae25a2965210891
+      body: >
+        Repo should be able to optionally set the `PUBLISH_DIR` secret and have
+        that value used.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.1.62
+  date: 2021-05-21T04:53:58.789Z
+- commits:
+    - subject: Allow override of publish_dir property in workflow
       hash: 73df3839271c6815719ae93b4273d00bb007e91c
       body: >
         Repo should be able to optionally set the `PUBLISH_DIR` secret and have
