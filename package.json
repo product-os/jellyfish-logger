@@ -46,7 +46,7 @@
   "dependencies": {
     "@balena/jellyfish-assert": "^1.1.22",
     "@balena/jellyfish-environment": "^4.1.13",
-    "@sentry/node": "^6.4.0",
+    "@sentry/node": "^6.4.1",
     "errio": "^1.2.2",
     "lodash": "^4.17.21",
     "r7insight_node": "^3.0.1",
@@ -59,7 +59,7 @@
     "@balena/lint": "^5.4.2",
     "@types/intercept-stdout": "^0.1.0",
     "@types/jest": "^26.0.23",
-    "@types/lodash": "^4.14.169",
+    "@types/lodash": "^4.14.170",
     "catch-uncommitted": "^2.0.0",
     "depcheck": "^1.4.1",
     "deplint": "^1.1.3",
