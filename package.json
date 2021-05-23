@@ -1,6 +1,6 @@
 {
   "name": "@balena/jellyfish-logger",
-  "version": "2.1.69",
+  "version": "2.1.70",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-logger.git"
