@@ -44,8 +44,8 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-assert": "^1.1.23",
-    "@balena/jellyfish-environment": "^4.1.15",
+    "@balena/jellyfish-assert": "^1.1.25",
+    "@balena/jellyfish-environment": "^4.1.17",
     "@sentry/node": "^6.4.1",
     "errio": "^1.2.2",
     "lodash": "^4.17.21",
