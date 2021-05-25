@@ -1,4 +1,27 @@
 - commits:
+    - subject: 'build(deps): bump browserslist from 4.16.3 to 4.16.6'
+      hash: 6cfe6408b894d42624c654add5c0c58a1da20613
+      body: >
+        Bumps [browserslist](https://github.com/browserslist/browserslist) from
+        4.16.3 to 4.16.6.
+
+        - [Release notes](https://github.com/browserslist/browserslist/releases)
+
+        -
+        [Changelog](https://github.com/browserslist/browserslist/blob/main/CHANGELOG.md)
+
+        -
+        [Commits](https://github.com/browserslist/browserslist/compare/4.16.3...4.16.6)
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: 'dependabot[bot] <support@github.com>'
+        signed-off-by: 'dependabot[bot] <support@github.com>'
+      author: 'dependabot[bot]'
+      nested: []
+  version: 2.1.77
+  date: 2021-05-25T03:25:50.588Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 8a506deedc95bbfcbe5643dd270a8f8351526bce
       body: ''
