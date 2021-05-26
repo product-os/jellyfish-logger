@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jest dependencies
+      hash: dcbbf4b6c54d4fe8a67052e4001448293e276040
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.79
+  date: 2021-05-26T01:31:10.256Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.1.20'
       hash: a3096dc417a3d3f75e9d9ad0d0f01033a9821a5f
       body: ''
