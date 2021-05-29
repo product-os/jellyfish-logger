@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency jest to ^27.0.2'
+      hash: e20de2b50098a106724d33866987378d1ece12ce
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.91
+  date: 2021-05-29T14:03:11.525Z
+- commits:
     - subject: Internalize strip-ansi
       hash: 11be20b702264b1d7117bb896955180b99c1f26b
       body: ''
