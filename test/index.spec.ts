@@ -5,12 +5,24 @@
  */
 
 import intercept = require('intercept-stdout');
-import stripAnsi = require('strip-ansi');
 import { getLogger } from '../lib/index';
 
 const TEST_CONTEXT = {
 	id: 1,
 };
+
+function ansiRegex({ onlyFirst = false } = {}) {
+	const pattern = [
+		'[\\u001B\\u009B][[\\]()#;?]*(?:(?:(?:[a-zA-Z\\d]*(?:;[-a-zA-Z\\d\\/#&.:=?%@~_]*)*)?\\u0007)',
+		'(?:(?:\\d{1,4}(?:;\\d{0,4})*)?[\\dA-PR-TZcf-ntqry=><~]))',
+	].join('|');
+
+	return new RegExp(pattern, onlyFirst ? undefined : 'g');
+}
+
+function stripAnsi(output: string): string {
+	return output.replace(ansiRegex(), '');
+}
 
 test('getLogger() returns a logger instance', () => {
 	const instance = getLogger(__filename);
