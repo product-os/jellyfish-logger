@@ -18,10 +18,6 @@ type LogContext = object | null;
 const BASE_PATH = path.join(__dirname, '..', '..', '..');
 const errorReporter = getErrorReporter();
 
-// Adds winston.transports.Insight
-// tslint:disable-next-line: no-var-requires
-require('r7insight_node');
-
 const LoggerNoContext = typedErrors.makeTypedError('LoggerNoContext');
 
 // See https://github.com/winstonjs/winston#logging-levels for more information
@@ -136,22 +132,7 @@ class Logger {
 	}
 }
 
-// TODO: Replace references to "logentries" to "insight".
 const newTransport = (): winston.transport => {
-	if (
-		defaultEnvironment.isProduction() &&
-		defaultEnvironment.logentries.token
-	) {
-		// winston.transports.Insight is populated by requiring 'r7insight_node'. But
-		// TypeScript does not know about it! There is also no TypeScript definition
-		// for this transport class in the r7insight_node package.
-		const InsightTransport = _.get(winston.transports, ['Insight']);
-		return new InsightTransport({
-			token: defaultEnvironment.logentries.token,
-			region: defaultEnvironment.logentries.region,
-		});
-	}
-
 	const consoleTransport = new winston.transports.Console({
 		format: winston.format.combine(
 			winston.format.colorize(),
