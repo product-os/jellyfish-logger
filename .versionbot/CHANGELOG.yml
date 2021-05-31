@@ -1,4 +1,21 @@
 - commits:
+    - subject: Stop logging to rapid7 and rely on stdout instead
+      hash: 17bc61134911d271edc6852635caee169e1bb89d
+      body: |
+        Balena has standardised on logging to stdout and using tools to capture
+        and store the output instead of having application code log to an
+        external service directly. This change follows this pattern and removes
+        the direct logging to r7.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 3.0.0
+  date: 2021-05-31T09:14:20.508Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 7e9d3e84983b0023af107031f92e1d7ca8b9de78
       body: ''
