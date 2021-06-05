@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update external-non-major'
+      hash: 149d6661364e79ae99799b7586a676a034addb3c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.4
+  date: 2021-06-05T08:29:32.341Z
+- commits:
     - subject: Improve lint-staged config
       hash: 501f35a71a2cc72946834cc05ad3abb83abbf602
       body: ''
