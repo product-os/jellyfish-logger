@@ -43,7 +43,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-assert": "^1.1.43",
+    "@balena/jellyfish-assert": "^1.1.44",
     "@balena/jellyfish-environment": "^4.1.35",
     "@sentry/node": "^6.5.1",
     "errio": "^1.2.2",
@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@balena/jellycheck": "^0.1.1",
-    "@balena/jellyfish-config": "^1.2.7",
+    "@balena/jellyfish-config": "^1.2.8",
     "@balena/lint": "^6.1.1",
     "@types/intercept-stdout": "^0.1.0",
     "@types/jest": "^26.0.23",
