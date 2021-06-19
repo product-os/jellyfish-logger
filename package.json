@@ -45,7 +45,7 @@
   "dependencies": {
     "@balena/jellyfish-assert": "^1.1.49",
     "@balena/jellyfish-environment": "^4.2.6",
-    "@sentry/node": "^6.6.0",
+    "@sentry/node": "^6.7.1",
     "errio": "^1.2.2",
     "lodash": "^4.17.21",
     "typed-errors": "^1.1.0",
@@ -64,11 +64,11 @@
     "intercept-stdout": "^0.1.2",
     "jest": "^27.0.4",
     "lint-staged": "^11.0.0",
-    "sentry-testkit": "^3.3.2",
+    "sentry-testkit": "^3.3.3",
     "simple-git-hooks": "^2.4.1",
     "ts-jest": "^27.0.3",
     "typedoc": "^0.20.36",
-    "typescript": "^4.3.2"
+    "typescript": "^4.3.4"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
