@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump sentry-testkit to v3.3.4
+      hash: 7fd61d803b13ea010c9c7bcba9876791225c24a0
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.20
+  date: 2021-06-20T14:21:57.397Z
+- commits:
     - subject: Bump external non-major deps
       hash: 7581247ebdf84b79304d5e85587a63a600473e62
       body: ''
