@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump sentry/node to v6.7.2
+      hash: 7c116c2abcc1addb18543112b78e99875cce02db
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.21
+  date: 2021-06-22T05:59:21.594Z
+- commits:
     - subject: Bump sentry-testkit to v3.3.4
       hash: 7fd61d803b13ea010c9c7bcba9876791225c24a0
       body: ''
