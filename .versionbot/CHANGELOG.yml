@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.3.3'
+      hash: b957f1aa14549a04fbfc13c1cb055237355591ce
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.22
+  date: 2021-06-22T06:14:39.125Z
+- commits:
     - subject: Bump sentry/node to v6.7.2
       hash: 7c116c2abcc1addb18543112b78e99875cce02db
       body: ''
