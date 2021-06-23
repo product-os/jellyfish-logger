@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jest to v27.0.5
+      hash: 0eb8e12772c8e20ca2fdc79ffc4544bbec19e12a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.24
+  date: 2021-06-23T23:22:00.425Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 00901ea11bbc5e12fdb6aec47490ad1cd5116cd2
       body: ''
