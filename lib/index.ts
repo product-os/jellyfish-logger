@@ -25,6 +25,14 @@ const LoggerNoContext = typedErrors.makeTypedError('LoggerNoContext');
 // corresponding integer
 const LEVELS = winston.config.syslog.levels;
 
+const stringify = (obj, replacer?, indent?) => {
+	try {
+		return JSON.stringify(obj, replacer, indent);
+	} catch {
+		return 'ERROR formatting the error object as JSON';
+	}
+};
+
 type LEVEL =
 	| 'emerg'
 	| 'alert'
@@ -119,7 +127,7 @@ class Logger {
 		INTERNAL(context, _.isError(error), Error, () => {
 			return [
 				'Last argument to .exception() should be an error:',
-				JSON.stringify(error, null, 2),
+				stringify(error, null, 2),
 			].join(' ');
 		});
 
@@ -138,13 +146,13 @@ const newTransport = (): winston.transport => {
 			winston.format.colorize(),
 			winston.format.printf((info) => {
 				INTERNAL(null, info.context && info.context.id, LoggerNoContext, () => {
-					return `Missing context: ${JSON.stringify(info)}`;
+					return `Missing context: ${stringify(info)}`;
 				});
 
 				const id = info.context.id;
 				const prefix = `${info.timestamp} [${info.namespace}] [${info.level}] [${id}]:`;
 				if (info.data) {
-					return `${prefix} ${info.message} ${JSON.stringify(info.data)}`;
+					return `${prefix} ${info.message} ${stringify(info.data)}`;
 				}
 
 				return `${prefix} ${info.message}`;
