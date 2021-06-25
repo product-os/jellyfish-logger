@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump depcheck to v1.4.2
+      hash: 4defe8eddcbec49c7d78e25a32e5bfdfd754f89a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.28
+  date: 2021-06-25T22:42:41.888Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.3.1'
       hash: 0550e8e0e9e4b3f5c7b09506b36998e5f9b6719b
       body: ''
