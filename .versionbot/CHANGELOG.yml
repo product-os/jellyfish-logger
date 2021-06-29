@@ -1,4 +1,17 @@
 - commits:
+    - subject: prevent object invalid for JSON to crash the logger
+      hash: 32437f202cb61574ace8fed257b3c1b090e392eb
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 3.0.30
+  date: 2021-06-29T06:47:57.468Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.3.2'
       hash: f5d9ae96577f774ee500905e4251f1c9ac622eff
       body: ''
