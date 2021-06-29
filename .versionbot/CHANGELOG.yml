@@ -1,4 +1,23 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 68d50202880db0e3535c69e7a276de06ad66e250
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: 'patch: Update external-non-major'
+      hash: 1405522af1a97e679b5e2f90babde45699f178ed
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.31
+  date: 2021-06-29T10:45:10.500Z
+- commits:
     - subject: prevent object invalid for JSON to crash the logger
       hash: 32437f202cb61574ace8fed257b3c1b090e392eb
       body: ''
