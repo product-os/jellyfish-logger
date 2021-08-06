@@ -1,4 +1,18 @@
 - commits:
+    - subject: use balena convention for npm script names
+      hash: 32db8601e80641f9dc8a68f2266cf3c22a7dd2c7
+      body: |
+        i.e. base-cmd:sub-cmd
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 3.0.55
+  date: 2021-08-06T13:38:39.011Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: a98012d97ddba4e1f8183347e0ce0d4deef8495f
       body: ''
