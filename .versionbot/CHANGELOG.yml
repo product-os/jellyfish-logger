@@ -1,4 +1,17 @@
 - commits:
+    - subject: Drop typed-errors module in favor of typed-error
+      hash: 86350715b48eb130f063b403765755812eba3404
+      body: "The typed-errors module is deprecated and no longer maintained. This\ncommit changes it for the typed-error module maintained by balena.\nI believe the original intention was to use the typed-error module, but\nwe ended up using the typed-errors module due to a typo \U0001F631\n"
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 3.0.58
+  date: 2021-08-09T10:33:00.164Z
+- commits:
     - subject: 'patch: Update external-non-major'
       hash: c3e43661b29e421f5ef0b8b79c2256c2c185f490
       body: ''
