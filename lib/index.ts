@@ -4,10 +4,10 @@
  * Proprietary and confidential.
  */
 
-import * as typedErrors from 'typed-errors';
 import * as errio from 'errio';
 import * as path from 'path';
 import * as _ from 'lodash';
+import { TypedError } from 'typed-error';
 import * as winston from 'winston';
 import { getErrorReporter } from './error-reporter';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
@@ -18,7 +18,7 @@ type LogContext = object | null;
 const BASE_PATH = path.join(__dirname, '..', '..', '..');
 const errorReporter = getErrorReporter();
 
-const LoggerNoContext = typedErrors.makeTypedError('LoggerNoContext');
+class LoggerNoContext extends TypedError {}
 
 // See https://github.com/winstonjs/winston#logging-levels for more information
 // about log levels. TLDR; the higher the log priority the lower the

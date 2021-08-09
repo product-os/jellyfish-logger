@@ -48,7 +48,7 @@
     "@sentry/node": "^6.11.0",
     "errio": "^1.2.2",
     "lodash": "^4.17.21",
-    "typed-errors": "^1.1.0",
+    "typed-error": "^3.2.1",
     "winston": "^3.3.3",
     "winston-transport": "^4.4.0"
   },
