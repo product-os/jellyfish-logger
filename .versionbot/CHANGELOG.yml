@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.4.0'
+      hash: 34129a5c8e5af5ab7594588797c7930eca66c13c
+      body: |
+        Update @balena/jellyfish-environment from 4.3.19 to 4.4.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.59
+  date: 2021-08-15T02:02:43.142Z
+- commits:
     - subject: Drop typed-errors module in favor of typed-error
       hash: 86350715b48eb130f063b403765755812eba3404
       body: "The typed-errors module is deprecated and no longer maintained. This\ncommit changes it for the typed-error module maintained by balena.\nI believe the original intention was to use the typed-error module, but\nwe ended up using the typed-errors module due to a typo \U0001F631\n"
