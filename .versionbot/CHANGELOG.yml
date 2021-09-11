@@ -1,4 +1,25 @@
 - commits:
+    - subject: Add typedoc to depcheck ignore list
+      hash: a110b61ff52f679e6ca9398ce32d7eb0bc4058e3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update external-non-major'
+      hash: 0a6b7e687e55faaa922aa8b42356b81b6f73f4f7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.68
+  date: 2021-09-11T05:24:00.700Z
+- commits:
     - subject: 'patch: Update dependency @sentry/node to ^6.12.0'
       hash: 33d79924c63245a80950805b4973f862aedbffb9
       body: ''
