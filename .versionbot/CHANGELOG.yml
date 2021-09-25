@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency jest to ^27.2.2'
+      hash: 341ac2cb8db0ca3aa1452ef554ad3a530a05ccb7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.74
+  date: 2021-09-25T15:55:00.817Z
+- commits:
     - subject: 'patch: Update dependency @types/lodash to ^4.14.174'
       hash: 11d5100d73dd241c923ec0d67fbe160dfeac5e5d
       body: ''
