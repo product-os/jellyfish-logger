@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update external-non-major'
+      hash: 58d11fdb5ec2f14c441f61c425a6720be4434bee
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.75
+  date: 2021-10-02T00:42:59.093Z
+- commits:
     - subject: 'patch: Update dependency jest to ^27.2.2'
       hash: 341ac2cb8db0ca3aa1452ef554ad3a530a05ccb7
       body: ''
