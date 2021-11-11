@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^5.1.0'
+      hash: 4f424724878c874bfd297f9d785be1311126a368
+      body: |
+        Update @balena/jellyfish-environment from 5.0.14 to 5.1.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.106
+  date: 2021-11-11T05:07:04.074Z
+- commits:
     - subject: Set loglevel for unit tests
       hash: 4a7499a08e9051407cbcf23e8a57927a1b745fd7
       body: ''
