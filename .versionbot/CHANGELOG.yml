@@ -1,4 +1,25 @@
 - commits:
+    - subject: Set loglevel for unit tests
+      hash: 4a7499a08e9051407cbcf23e8a57927a1b745fd7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-assert to ^1.1.71'
+      hash: 4815e8ab4ef3e379ffb0f712cea7c87b5c8f3e50
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.105
+  date: 2021-11-11T04:56:47.414Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: c42285f10b15d82c4ca9869f57fc1b6e654465c3
       body: ''
