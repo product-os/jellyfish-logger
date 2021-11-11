@@ -36,14 +36,14 @@
     "lint": "balena-lint lib test && jellycheck && deplint && depcheck --ignore-bin-package --ignores=winston-transport,@types/jest,typedoc",
     "lint:fix": "balena-lint --fix lib test",
     "test": "npm run lint && npm run test:unit",
-    "test:unit": "jest",
+    "test:unit": "LOGLEVEL=debug jest",
     "doc": "typedoc lib/ && touch docs/.nojekyll",
     "prepack": "npm run build"
   },
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-assert": "^1.1.68",
+    "@balena/jellyfish-assert": "^1.1.71",
     "@balena/jellyfish-environment": "^5.0.14",
     "@sentry/node": "^6.14.1",
     "errio": "^1.2.2",
