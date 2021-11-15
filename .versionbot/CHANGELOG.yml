@@ -1,4 +1,17 @@
 - commits:
+    - subject: Set license
+      hash: 2017494fb576e0a75d0a3ecd6035c9634919f6fe
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.116
+  date: 2021-11-15T03:30:02.011Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^5.1.4'
       hash: b1d43068e833960ee70aa25ada35e35f5430d409
       body: ''
