@@ -53,8 +53,8 @@
     "winston-transport": "^4.4.0"
   },
   "devDependencies": {
-    "@balena/jellycheck": "^0.1.5",
-    "@balena/jellyfish-config": "^1.5.8",
+    "@balena/jellycheck": "^0.1.7",
+    "@balena/jellyfish-config": "^1.5.9",
     "@balena/lint": "^6.1.1",
     "@types/intercept-stdout": "^0.1.0",
     "@types/jest": "^27.0.2",
