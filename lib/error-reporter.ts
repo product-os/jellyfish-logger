@@ -1,9 +1,3 @@
-/*
- * Copyright (C) Balena.io - All Rights Reserved
- * Unauthorized copying of this file, via any medium is strictly prohibited.
- * Proprietary and confidential.
- */
-
 import * as Sentry from '@sentry/node';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { AssertError } from '@balena/jellyfish-assert/build/types';
