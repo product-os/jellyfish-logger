@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump external deps
+      hash: 7773c5f6953d1c23cff69ec6f1faf58362db0824
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.134
+  date: 2021-11-22T02:23:49.094Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-environment to ^5.1.13'
       hash: c0adb852e88111cf7ed97de8fd97edf45f2247be
       body: ''
