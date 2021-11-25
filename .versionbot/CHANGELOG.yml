@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove jellycheck
+      hash: be3273b55c022d644416eb118a94456e4c97dd40
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.144
+  date: 2021-11-25T01:30:50.077Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-assert to ^1.1.90'
       hash: e3c67a1b089764ed114671c12cebbdb574aa499d
       body: ''
