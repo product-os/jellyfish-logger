@@ -1,4 +1,17 @@
 - commits:
+    - subject: Use product-os/renovate-config
+      hash: dfe26a7e1be7385e33ed1d46cf1d3201d592ac9f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.149
+  date: 2021-11-26T02:43:03.723Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-assert to ^1.1.94'
       hash: 4ed6170f426456f6b98a9408ad05ef7c32fb48f6
       body: ''
