@@ -1,4 +1,33 @@
 - commits:
+    - subject: 'patch: Update external-non-major'
+      hash: 0080840dda6d8cfdb2087f95e92311679ebf181f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to v6'
+      hash: a04825bbb5a9365150e3d7d8dd105ae2e1fef956
+      body: |
+        Update @balena/jellyfish-environment from 5.2.2 to 6.0.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: 'patch: Update dependency typescript to ^4.5.3'
+      hash: c8b1bb7b2c99e2753801bc5e4f4e0669de5205bf
+      body: |
+        Update typescript from 4.5.2 to 4.5.3
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.164
+  date: 2021-12-11T01:56:30.983Z
+- commits:
     - subject: Update upstream repos
       hash: b461ed3afad5f00831e15360808c2a7b1d578681
       body: ''
