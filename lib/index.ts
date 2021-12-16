@@ -7,7 +7,7 @@ import { getErrorReporter } from './error-reporter';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { INTERNAL } from '@balena/jellyfish-assert';
 
-type LogContext = object | null;
+export type LogContext = object | null;
 
 const BASE_PATH = path.join(__dirname, '..', '..', '..');
 const errorReporter = getErrorReporter();
