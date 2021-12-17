@@ -7,7 +7,7 @@ import { getErrorReporter } from './error-reporter';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { INTERNAL } from '@balena/jellyfish-assert';
 
-export type LogContext = null | {
+export type LogContext = {
 	id: any;
 	[key: string]: any;
 };
