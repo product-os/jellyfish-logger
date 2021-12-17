@@ -1,4 +1,17 @@
 - commits:
+    - subject: '`LogContext` cannot be null'
+      hash: 7a33ae209d5d4e9b212b26d2a41ec072ca443fba
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Carol Schulze <carol@balena.io>
+        signed-off-by: Carol Schulze <carol@balena.io>
+      author: Carol Schulze
+      nested: []
+  version: 4.0.1
+  date: 2021-12-17T14:39:20.946Z
+- commits:
     - subject: 'If a `LogContext` is not null, it must have an `id`'
       hash: 01cbbfe7b43f175bc3a3a1d3167d43a73a3a2ffa
       body: ''
