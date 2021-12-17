@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'If a `LogContext` is not null, it must have an `id`'
+      hash: 01cbbfe7b43f175bc3a3a1d3167d43a73a3a2ffa
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Carol Schulze <carol@balena.io>
+        signed-off-by: Carol Schulze <carol@balena.io>
+      author: Carol Schulze
+      nested: []
+  version: 4.0.0
+  date: 2021-12-17T09:46:46.035Z
+- commits:
     - subject: Export the `LogContext` type
       hash: da9215d2a08ddf456daffc9757c299da256e9907
       body: ''
