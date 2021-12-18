@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update external-non-major'
+      hash: c83636cab7cccdb5c3941ac3678ddeb86be00606
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 4.0.2
+  date: 2021-12-18T01:24:41.045Z
+- commits:
     - subject: '`LogContext` cannot be null'
       hash: 7a33ae209d5d4e9b212b26d2a41ec072ca443fba
       body: ''
