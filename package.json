@@ -43,8 +43,8 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "Apache-2.0",
   "dependencies": {
-    "@balena/jellyfish-assert": "^1.2.9",
-    "@balena/jellyfish-environment": "^6.0.11",
+    "@balena/jellyfish-assert": "^1.2.10",
+    "@balena/jellyfish-environment": "^6.0.12",
     "@sentry/node": "^6.16.1",
     "errio": "^1.2.2",
     "lodash": "^4.17.21",
