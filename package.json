@@ -1,6 +1,6 @@
 {
   "name": "@balena/jellyfish-logger",
-  "version": "4.0.36",
+  "version": "4.0.37",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-logger.git"
@@ -72,6 +72,6 @@
     "pre-commit": "npx lint-staged"
   },
   "versionist": {
-    "publishedAt": "2022-02-13T21:44:29.828Z"
+    "publishedAt": "2022-02-16T09:38:12.012Z"
   }
 }
