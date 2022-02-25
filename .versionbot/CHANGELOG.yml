@@ -1,4 +1,23 @@
 - commits:
+    - subject: Do not handle uncaught exceptions
+      hash: 926e19ff99d72b9b042ef413ecdb8bd8681691fa
+      body: |
+        When winston is configured to handle uncaught exceptions, all uncaught
+        exceptions will result in a `LoggerNoContext` error being thrown, which
+        obscure the real source of the error and makes it very hard to debug
+        problems. Additionally, this behaviour interferes with application level
+        exception handling.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 5.0.0
+  title: "'Do not handle uncaught exceptions'"
+  date: 2022-02-25T14:22:24.646Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 8.0.0 to 9.1.0
       hash: 5d3beeaaf0b74ef285acd8d92af6408cef4ba9d7
       body: ""
