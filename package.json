@@ -44,7 +44,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@balena/jellyfish-assert": "^1.2.15",
-    "@balena/jellyfish-environment": "^8.0.0",
+    "@balena/jellyfish-environment": "^9.1.0",
     "@sentry/node": "^6.17.7",
     "errio": "^1.2.2",
     "lodash": "^4.17.21",
