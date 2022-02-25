@@ -66,7 +66,6 @@ class Logger {
 				winston.format.json(),
 			),
 			transports: [transport],
-			exceptionHandlers: [transport],
 			exitOnError: false,
 			level,
 		});
