@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update external-non-major
+      hash: 5489a69a43f32e2e0d8b379d922d94b06d86ff55
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.0.1
+  title: "'Update external-non-major'"
+  date: 2022-02-26T01:02:33.491Z
+- commits:
     - subject: Do not handle uncaught exceptions
       hash: 926e19ff99d72b9b042ef413ecdb8bd8681691fa
       body: |
