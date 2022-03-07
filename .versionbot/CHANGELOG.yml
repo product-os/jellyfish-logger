@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update typescript from 4.5.5 to 4.6.2
+      hash: 768693c24a36e825901e4256cffa65d6d581cf41
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update typedoc from 0.22.12 to 0.22.13
+      hash: d4d344e33f605b627d2a4c3f1814c83c54a9e0c3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.0.5
+  title: "'Update typescript from 4.5.5 to 4.6.2'"
+  date: 2022-03-07T02:36:10.419Z
+- commits:
     - subject: Bump external packages
       hash: 1d2b0213063d8f784d9dac5b095490a371051d29
       body: ""
