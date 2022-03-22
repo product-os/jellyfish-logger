@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix repo.yml formatting
+      hash: b77b4e06a041060795468ad7216aef23d9fd1eb2
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.9
+  title: "'Fix repo.yml formatting'"
+  date: 2022-03-22T04:10:37.116Z
+- commits:
     - subject: Update internal-patch
       hash: c9b1c0ba001a936346cbef2b51eb6275dc3fbc83
       body: ""
