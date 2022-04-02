@@ -43,8 +43,8 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "Apache-2.0",
   "dependencies": {
-    "@balena/jellyfish-assert": "^1.2.21",
-    "@balena/jellyfish-environment": "^9.1.7",
+    "@balena/jellyfish-assert": "^1.2.22",
+    "@balena/jellyfish-environment": "^9.1.8",
     "@sentry/node": "^6.19.2",
     "errio": "^1.2.2",
     "lodash": "^4.17.21",
@@ -53,7 +53,7 @@
     "winston-transport": "^4.5.0"
   },
   "devDependencies": {
-    "@balena/jellyfish-config": "^2.0.4",
+    "@balena/jellyfish-config": "^2.0.5",
     "@balena/lint": "^6.2.0",
     "@types/intercept-stdout": "^0.1.0",
     "@types/jest": "^27.4.1",
