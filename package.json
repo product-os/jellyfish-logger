@@ -45,11 +45,11 @@
   "dependencies": {
     "@balena/jellyfish-assert": "^1.2.23",
     "@balena/jellyfish-environment": "^9.1.9",
-    "@sentry/node": "^6.19.3",
+    "@sentry/node": "^6.19.6",
     "errio": "^1.2.2",
     "lodash": "^4.17.21",
     "typed-error": "^3.2.1",
-    "winston": "^3.6.0",
+    "winston": "^3.7.2",
     "winston-transport": "^4.5.0"
   },
   "devDependencies": {
