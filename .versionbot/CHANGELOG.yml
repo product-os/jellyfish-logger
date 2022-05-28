@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update internal-patch (internal patch bumps)
+      hash: 613a438a77e1babfb0ea6fe78b93ffb11e0008ac
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.0.35
+  title: "'Update internal-patch (internal patch bumps)'"
+  date: 2022-05-28T03:06:19.366Z
+- commits:
     - subject: Update external-non-major (external non-major bumps)
       hash: 931837686a56fa742996166a90596abc10aa9d76
       body: ""
