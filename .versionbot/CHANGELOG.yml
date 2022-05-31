@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add tags with context request id to sentry capture exception call
+      hash: 41c852cac56a75c4366af8285c171f989e345e33
+      body: >
+        Request id allows the tracing of call path, for better debugging in
+        sentry
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Thomas Manning
+      nested: []
+  version: 5.1.0
+  title: "'Add tags with context request id to sentry capture exception call'"
+  date: 2022-05-31T16:28:30.530Z
+- commits:
     - subject: Update typescript from 4.6.4 to 4.7.2
       hash: 4adaa40bf095bb2096477d1a81fc904b33402573
       body: ""
