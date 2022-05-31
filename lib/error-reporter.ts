@@ -1,6 +1,7 @@
 import * as Sentry from '@sentry/node';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { AssertError } from '@balena/jellyfish-assert/build/types';
+import { LogContext } from './index';
 // tslint:disable-next-line: no-var-requires
 const { version } = require('../package.json');
 
@@ -20,7 +21,7 @@ class Reporter {
 		}
 	}
 
-	reportException(context: object | null, error: AssertError): void {
+	reportException(context: LogContext, error: AssertError): void {
 		if (error.expected) {
 			return;
 		}
@@ -48,7 +49,7 @@ class Reporter {
 
 		if (this.initialized) {
 			error.context = context;
-			Sentry.captureException(error);
+			Sentry.captureException(error, { tags: { requestId: context.id } });
 		}
 	}
 
