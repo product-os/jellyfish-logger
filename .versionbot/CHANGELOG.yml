@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update typedoc from 0.22.16 to 0.22.17
+      hash: a56f5cf45c9cea82dd477b6a8263b1afad8373f6
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.1.1
+  title: "'Update typedoc from 0.22.16 to 0.22.17'"
+  date: 2022-06-01T05:30:33.249Z
+- commits:
     - subject: Add tags with context request id to sentry capture exception call
       hash: 41c852cac56a75c4366af8285c171f989e345e33
       body: >
