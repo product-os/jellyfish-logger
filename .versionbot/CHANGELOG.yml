@@ -1,4 +1,32 @@
 - commits:
+    - subject: "Update: update internal-patch (internal patch bumps)"
+      hash: 223bbdd0f82ce7696e5b7340baa442adadf6303c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+    - subject: Update dependencies (external v0 minor bumps)
+      hash: 47afa584a09c0ad89477b24cb3066d0dadf41016
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+    - subject: Update typedoc from 0.22.17 to 0.22.18
+      hash: 178f88513064f556e3a6580df933a76d6504a2b3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.7
+  title: "'Update: update internal-patch (internal patch bumps)'"
+  date: 2022-06-27T05:26:02.496Z
+- commits:
     - subject: Bump dependencies
       hash: df8fc55b2ead5994b705b551aa250b85cdd473c8
       body: ""
