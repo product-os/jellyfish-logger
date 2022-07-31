@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-assert from 1.2.49 to 1.2.50
+      hash: 60e5c3de784ac62d7f5ad8899faf367ffaba488a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.19
+  title: "'Update @balena/jellyfish-assert from 1.2.49 to 1.2.50'"
+  date: 2022-07-31T22:32:27.219Z
+- commits:
     - subject: Update external-major (external major bumps)
       hash: 93893eea04f59b17d0dcf00f02dbb81fbbd33c73
       body: ""
