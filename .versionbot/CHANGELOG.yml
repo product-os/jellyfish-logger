@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update winston from 3.7.2 to 3.8.1
+      hash: c0f8b355e3580f4ef7c277f116e5fe13b0972c92
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.28
+  title: "'Update winston from 3.7.2 to 3.8.1'"
+  date: 2022-08-13T06:16:29.652Z
+- commits:
     - subject: Update @sentry/node from 7.8.0 to 7.10.0
       hash: 349836852c1d795bad6d952c366507a6b0757115
       body: ""
