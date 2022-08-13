@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update lint-staged from 13.0.2 to 13.0.3
+      hash: b46da825ceb29d72aedb7bbaa8aae45802968d2c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.24
+  title: "'Update lint-staged from 13.0.2 to 13.0.3'"
+  date: 2022-08-13T00:49:40.394Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 12.3.5 to 12.3.6
       hash: 09fed71222fd6abbf9d91360efa00f09e0436f12
       body: ""
