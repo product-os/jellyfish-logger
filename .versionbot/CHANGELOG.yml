@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @sentry/node from 7.8.0 to 7.10.0
+      hash: 349836852c1d795bad6d952c366507a6b0757115
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.27
+  title: "'Update @sentry/node from 7.8.0 to 7.10.0'"
+  date: 2022-08-13T06:08:58.096Z
+- commits:
     - subject: Update ts-jest from 28.0.5 to 28.0.7
       hash: 6dee09d0ca2c0afe6cc4ff71d530a23cfd8520c0
       body: ""
