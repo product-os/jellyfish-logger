@@ -45,7 +45,7 @@
   "dependencies": {
     "@balena/jellyfish-assert": "^1.2.50",
     "@balena/jellyfish-environment": "^12.3.6",
-    "@sentry/node": "^7.8.0",
+    "@sentry/node": "^7.10.0",
     "errio": "^1.2.2",
     "lodash": "^4.17.21",
     "typed-error": "^3.2.1",
