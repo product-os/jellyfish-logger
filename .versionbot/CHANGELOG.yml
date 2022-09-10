@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update external-major (external major bumps)
+      hash: bdbd81443248efcaa63df48e219911eb852496d4
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.46
+  title: "'Update external-major (external major bumps) (major)'"
+  date: 2022-09-10T01:54:58.494Z
+- commits:
     - subject: Update typedoc to 0.23.14
       hash: b32627b060bfeccc50a80cc011bfc47d5eb88f9a
       body: ""
