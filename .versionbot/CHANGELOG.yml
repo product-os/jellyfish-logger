@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update winston from 3.8.1 to 3.8.2
+      hash: 19d61ad3be7ec630c693bbe659eb46022fae3978
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.50
+  title: "'Update winston from 3.8.1 to 3.8.2'"
+  date: 2022-09-10T07:16:17.924Z
+- commits:
     - subject: Update @balena/jellyfish-assert from 1.2.59 to 1.2.60
       hash: fd769741e22f75b7569edd530a94638a9840725c
       body: ""
