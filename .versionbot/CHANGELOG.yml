@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @sentry/node from 7.11.1 to 7.12.1
+      hash: c7ef1f9647e1e0a88aab708fc70517e2b25ee88b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.51
+  title: "'Update @sentry/node from 7.11.1 to 7.12.1'"
+  date: 2022-09-10T07:26:23.808Z
+- commits:
     - subject: Update winston from 3.8.1 to 3.8.2
       hash: 19d61ad3be7ec630c693bbe659eb46022fae3978
       body: ""
