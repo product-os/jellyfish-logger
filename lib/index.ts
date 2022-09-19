@@ -1,3 +1,4 @@
+import { strict as assert } from 'assert';
 import * as errio from 'errio';
 import * as path from 'path';
 import * as _ from 'lodash';
@@ -5,7 +6,6 @@ import { TypedError } from 'typed-error';
 import * as winston from 'winston';
 import { getErrorReporter } from './error-reporter';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
-import { INTERNAL } from '@balena/jellyfish-assert';
 
 export type LogContext = {
 	id: any;
@@ -120,13 +120,6 @@ class Logger {
 	}
 
 	exception(context: LogContext, message: string, error: Error) {
-		INTERNAL(context, _.isError(error), Error, () => {
-			return [
-				'Last argument to .exception() should be an error:',
-				stringify(error, null, 2),
-			].join(' ');
-		});
-
 		const errorObject = errio.toObject(error, {
 			stack: true,
 		});
@@ -141,9 +134,10 @@ const newTransport = (): winston.transport => {
 		format: winston.format.combine(
 			winston.format.colorize(),
 			winston.format.printf((info) => {
-				INTERNAL(null, info.context && info.context.id, LoggerNoContext, () => {
-					return `Missing context: ${stringify(info)}`;
-				});
+				assert(
+					info && info.context && info.context.id,
+					new LoggerNoContext(`Missing context: ${stringify(info)}`),
+				);
 
 				const id = info.context.id;
 				const prefix = `${info.timestamp} [${info.namespace}] [${info.level}] [${id}]:`;
