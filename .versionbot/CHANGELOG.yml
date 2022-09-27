@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-assert from 1.2.75 to 1.2.76
+      hash: a7f32b57e676615f532b861fbc13812c3fbc34f7
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.89
+  title: ""
+  date: 2022-09-27T14:41:04.919Z
+- commits:
     - subject: Rely on flowzone for docs publishing
       hash: 2a29ee2a5fac733a1c962669c242ab43fc95e29b
       body: ""
