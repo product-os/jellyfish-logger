@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update sentry-testkit from 4.0.3 to 4.1.0
+      hash: 5fb3fb0dd3fb994a4dc77149650e3f0873fdbfef
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.102
+  title: ""
+  date: 2022-10-01T14:41:22.589Z
+- commits:
     - subject: Update jest monorepo
       hash: 8e4c882c023a9ed5f47e224012b7abb9bb2e97fc
       body: ""
