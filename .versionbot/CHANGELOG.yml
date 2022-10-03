@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-environment from 14.0.21 to 14.1.1
+      hash: a6edbac1414cfbf677b5f4fc6cd925b9247744cd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.103
+  title: ""
+  date: 2022-10-03T13:47:51.520Z
+- commits:
     - subject: Update sentry-testkit from 4.0.3 to 4.1.0
       hash: 5fb3fb0dd3fb994a4dc77149650e3f0873fdbfef
       body: ""
