@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-environment from 14.2.0 to 14.3.8
+      hash: e2730219256ce9bafbb880e0ef7067884daf04d2
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.107
+  title: ""
+  date: 2022-10-08T13:22:30.230Z
+- commits:
     - subject: "Dev: Use prettier for json/yml"
       hash: 05e8b679ee7f855f5e190630982bc145ffddd56b
       body: ""
