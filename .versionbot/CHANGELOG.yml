@@ -1,4 +1,18 @@
 - commits:
+    - subject: "Dev: Use prettier for json/yml"
+      hash: 05e8b679ee7f855f5e190630982bc145ffddd56b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 5.1.106
+  title: ""
+  date: 2022-10-08T13:01:15.779Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 14.1.2 to 14.2.0
       hash: 299f7602c91b06a692e5984386983e865e00eceb
       body: ""
