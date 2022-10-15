@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update jest from 29.1.2 to 29.2.0
+      hash: 40107fe61d92cb2a2dea9e5d45fc7aa28151402e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.121
+  title: ""
+  date: 2022-10-15T06:13:27.819Z
+- commits:
     - subject: Update @sentry/node from 7.14.2 to 7.15.0
       hash: 101868bfcc47dab0e573eff81540f03b47f41666
       body: ""
