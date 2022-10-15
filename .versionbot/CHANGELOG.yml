@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @sentry/node from 7.14.2 to 7.15.0
+      hash: 101868bfcc47dab0e573eff81540f03b47f41666
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.120
+  title: ""
+  date: 2022-10-15T03:12:51.565Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 14.3.12 to 14.3.13
       hash: 11af906d519d371024f461fce88b479ee9891609
       body: ""
