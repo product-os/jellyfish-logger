@@ -1,4 +1,18 @@
 - commits:
+    - subject: "CI: Stop extending renovate config"
+      hash: ad2dd29c5798f47cbf202b67b0f7c83228376e60
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 5.1.127
+  title: ""
+  date: 2022-12-13T00:35:40.131Z
+- commits:
     - subject: "Docs: Remove badge from readme"
       hash: 4a2824a165731cdc023152a53a1bf0495ef39cc2
       body: ""
