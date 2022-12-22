@@ -66,7 +66,7 @@
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
-    "sentry-testkit": "^4.1.0",
+    "sentry-testkit": "^5.0.0",
     "simple-git-hooks": "^2.8.0",
     "ts-jest": "^29.0.3",
     "typedoc": "^0.23.17",
