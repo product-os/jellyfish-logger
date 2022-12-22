@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update dependency sentry-testkit to 5.0.4
+      hash: 41b5ab201c6a9a3af9552236f82466e834ce3858
+      body: |
+        Update sentry-testkit to 5.0.4
+
+        Update sentry-testkit from 4.1.0 to 5.0.4
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.4.1
+  title: ""
+  date: 2022-12-22T01:58:16.588Z
+- commits:
     - subject: Pin dependencies
       hash: 4e1a16b815d7e4c06dbf16e5db9426144f069b1b
       body: |
