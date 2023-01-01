@@ -1,4 +1,16 @@
 - commits:
+    - subject: "Dev: Add .editorconfig"
+      hash: c12db17b4502723787f31def00fc7158f5700996
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 5.4.2
+  title: ""
+  date: 2023-01-01T10:05:35.570Z
+- commits:
     - subject: Update dependency sentry-testkit to 5.0.4
       hash: 41b5ab201c6a9a3af9552236f82466e834ce3858
       body: |
