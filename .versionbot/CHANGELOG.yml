@@ -1,4 +1,16 @@
 - commits:
+    - subject: Bump deps
+      hash: 03178188c80a302c3bbdfd07678226df2df729b8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 6.0.1
+  title: ""
+  date: 2023-04-01T03:15:40.909Z
+- commits:
     - subject: Remove sentry
       hash: eeb28c6929ed74e05cdc1546b78594f90dc75309
       body: ""
