@@ -3,7 +3,6 @@ import * as path from 'path';
 import * as _ from 'lodash';
 import { TypedError } from 'typed-error';
 import * as winston from 'winston';
-import { getErrorReporter } from './error-reporter';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { INTERNAL } from '@balena/jellyfish-assert';
 
@@ -13,7 +12,6 @@ export type LogContext = {
 };
 
 const BASE_PATH = path.join(__dirname, '..', '..', '..');
-const errorReporter = getErrorReporter();
 
 class LoggerNoContext extends TypedError {}
 
@@ -132,7 +130,6 @@ class Logger {
 		});
 
 		this.error(context, message, errorObject);
-		errorReporter.reportException(context, error);
 	}
 }
 
