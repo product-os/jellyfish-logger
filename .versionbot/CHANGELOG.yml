@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update typed-error to 3.2.2
+      hash: 5a05ec9b944c3fd3190e35dfa5c37d036debb8c8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 6.0.5
+  title: ""
+  date: 2023-08-27T07:26:50.844Z
+- commits:
     - subject: Update lint-staged to 14.0.1
       hash: 472b3bc7ced746cec53ab0065dc3510d40ad9476
       body: ""
