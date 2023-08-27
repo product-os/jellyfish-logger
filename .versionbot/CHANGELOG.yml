@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update typescript to 5.2.2
+      hash: 3042634ea41ad751ed386ea3022ff08b947d3de0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 6.0.10
+  title: ""
+  date: 2023-08-27T08:39:33.988Z
+- commits:
     - subject: Update prettier to 3.0.2
       hash: f3f168791cd20042825d16396a56e4f2e9e15c7d
       body: ""
