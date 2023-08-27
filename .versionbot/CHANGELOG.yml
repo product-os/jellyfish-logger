@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update simple-git-hooks to 2.9.0
+      hash: d0b5a5e4fbf598ff7db33ef125292d6b6142c328
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 6.0.8
+  title: ""
+  date: 2023-08-27T08:02:58.168Z
+- commits:
     - subject: Remove docs link from readme
       hash: 5bd49eb43991de00a3ab0fc2246f91acf20a9851
       body: ""
