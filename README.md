@@ -23,8 +23,3 @@ logger.warn(context, 'Inserting card', {
     type: card.type
 })
 ```
-
-# Documentation
-
-Visit the website for complete documentation: https://product-os.github.io/jellyfish-logger
-
