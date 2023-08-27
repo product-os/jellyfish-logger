@@ -62,7 +62,7 @@
     "intercept-stdout": "^0.1.2",
     "jest": "^29.5.0",
     "lint-staged": "^14.0.1",
-    "prettier": "^2.8.7",
+    "prettier": "^3.0.2",
     "rimraf": "^5.0.1",
     "simple-git-hooks": "^2.9.0",
     "ts-jest": "^29.0.5",
