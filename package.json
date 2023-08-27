@@ -50,7 +50,7 @@
     "@balena/jellyfish-environment": "^21.0.0",
     "errio": "^1.2.2",
     "lodash": "^4.17.21",
-    "typed-error": "^3.2.1",
+    "typed-error": "^3.2.2",
     "winston": "^3.10.0",
     "winston-transport": "^4.5.0"
   },
