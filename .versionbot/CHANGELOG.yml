@@ -1,4 +1,16 @@
 - commits:
+    - subject: Remove docs link from readme
+      hash: 5bd49eb43991de00a3ab0fc2246f91acf20a9851
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 6.0.7
+  title: ""
+  date: 2023-08-27T07:45:39.648Z
+- commits:
     - subject: Remove typedoc
       hash: 1643a5fc068f381383a191dad521f67e42571b03
       body: ""
